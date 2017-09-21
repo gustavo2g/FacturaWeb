@@ -1,0 +1,18 @@
+<nav class="nav flex-column">
+
+  <a class="nav-link" (click)="navActive.factura= !navActive.factura" >Facturacion</a>
+
+	<div class="nav-collapse" [class.show]="navActive.factura">
+  		<a class="nav-link">Facturar</a>
+  		<a class="nav-link">Total Facturado</a>
+  		<a class="nav-link">Buscar Factura</a>
+    </div>
+
+  <a class="nav-link">Link</a>
+  
+  <a class="nav-link">Link</a>
+  
+  <a class="nav-link">Disabled</a>
+
+</nav>
+
